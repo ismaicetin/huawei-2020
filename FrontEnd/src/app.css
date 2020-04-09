@@ -1,0 +1,28 @@
+#panel1a-header{
+    padding:0 
+}  
+:not(:root):fullscreen::backdrop{
+    background-color:white!important;
+
+} 
+
+#mapfulscrean:-webkit-full-screen,
+#mapfulscrean:-moz-full-screen,
+#mapfulscrean:-ms-fullscreen,
+#mapfulscrean:fullscreen {
+    width: "100vw";
+    height: "100vh";
+}
+
+#rating label  {
+    color: #ffb400!important;
+    cursor: pointer;
+    display: inline-flex;
+    position: relative;
+    font-size: 1.5rem!important;
+    -webkit-tap-highlight-color: transparent;
+}
+#rating {
+    padding: 15px;
+    text-align: center  ;
+}
